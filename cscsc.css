@@ -16,3 +16,17 @@ body {
     -webkit-user-select: none;
     user-select: none;
   }
+/* Adjustments for smaller screens */
+@media (max-width: 768px) {
+  h1 {
+      font-size: 3em;
+      top: 10%;
+  }
+}
+
+@media (max-width: 480px) {
+  h1 {
+      font-size: 2em;
+      top: 5%;
+  }
+}
